@@ -1,0 +1,9 @@
+@"
+node_modules/
+.next/
+.cursor/
+.vscode/
+tsconfig.tsbuildinfo
+.env
+.env.local
+"@ | Out-File -Encoding utf8 .gitignore
